@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "798018252108",
+    "project_id": "wave-64546",
+    "storage_bucket": "wave-64546.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798018252108:android:0788dcb5c935c7520cb3e9",
+        "android_client_info": {
+          "package_name": "com.raypog.wave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798018252108-io0lfav6b59fqkfpfbeqrl60722dr16a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlrh0Ts9ImesmMYP_OeOEYOO3kBpyBIgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798018252108-io0lfav6b59fqkfpfbeqrl60722dr16a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.halicon.wave">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.access" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true"/>
+    <uses-feature android:name="android.hardware.microphone"
+        android:required="true"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-feature android:name="android.hardware.camera.autofocus"
+        android:required="true"/>
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wave">
+        <activity android:name="com.halicon.com.maxtearney.wave.LoginScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.halicon.com.maxtearney.wave.UploadScreen">
+        </activity>
+        <activity android:name="com.halicon.com.maxtearney.wave.MainApp">
+        </activity>
+        <activity android:name="com.halicon.com.maxtearney.wave.RecordVideo"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name="com.halicon.com.maxtearney.wave.GetPerms"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name="com.halicon.com.maxtearney.wave.userProfile"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name="com.halicon.com.maxtearney.wave.FollowingMainApp"
+            tools:ignore="Instantiatable">
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+
+</manifest>
