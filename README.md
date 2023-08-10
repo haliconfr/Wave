@@ -23,7 +23,5 @@ Features:
 
 - A trending page showing the most liked videos uploaded, and a following page showing recent videos from followed users.
 
-Basically just a very heavily edited version of my musyrd project.
-
 Only works on android phones using SDK version 30 because of newer version's camera limitations.
 Feel free to use any code/visual assets for anything! no need for credit :)
