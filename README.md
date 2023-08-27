@@ -19,9 +19,11 @@ Features:
 
 - Fully functional login screen making it easy for users to create and login to accounts using their username, email and password.
 
-- The ability to follow users and subjects, which makes all reviews from those you follow appear on the following page.
+- The ability to follow users
 
-- A trending page showing the most liked videos uploaded, and a following page showing recent videos from followed users.
+- A trending page showing the most liked videos uploaded
+-
+- A following page showing recent videos from followed users
 
 Only works on android phones using SDK version 30 because of newer version's camera limitations.
 Feel free to use any code/visual assets for anything! no need for credit :)
