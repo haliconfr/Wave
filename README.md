@@ -22,7 +22,7 @@ Features:
 - The ability to follow users
 
 - A trending page showing the most liked videos uploaded
--
+
 - A following page showing recent videos from followed users
 
 Only works on android phones using SDK version 30 because of newer version's camera limitations.
